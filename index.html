@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"
+            content="Southeast Community Development Corporation promotes the digital services 
+                    provided by SCDC to small businesses">
+
+        <title>SCDC Small Business Digital Services </title>
+
+    </head>
+    <style>
+        body {
+            font-family: "Roboto Mono", monospace;
+        }
+        
+        h1 {
+            font-size: 6em;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 3em;
+        }
+        
+        footer {
+            text-align: center;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        #experience_form textarea {
+            height: 100px;
+            width: 100%;
+            padding: 5px;
+        }
+        
+        #experience_form input[type="text"], #experience_form input[type="email"] {
+            width: 200px;
+        } 
+        
+        #experience_form input, #experience_form textarea, #experience_form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        #experience_form input, #experience_form textarea {
+            padding: 5px;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto 25px auto;
+        }
+        
+        .activity-row {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .activity-col {
+            padding: 10px;
+        }
+        
+        main {
+            border-top: 1px solid grey; 
+            border-bottom: 1px solid grey; 
+        }
+        
+        nav a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 0;
+            padding: 10px 10px 10px 10px;
+        }
+        
+        nav a:link {
+            color: rgb(247, 228, 15);
+        }
+        
+        nav a:visited {
+            color: lightGray;
+        }
+        
+        nav a:hover {
+            color: white;
+        }
+        
+        nav a:active {
+            color: white;
+        }
+    </style>
+
+    <body>
+        <header class="container">
+            <img src="img/Logo.jpg" width="960"
+                height="236"
+                alt="Southeast Community Development Coroporation Logo" title="SCDC Small Business Digital Literacy Workshop">
+            <nav>
+                <ul>
+                    <li><a href="#Digital Services">Digital Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1>SCDC Digital Literacy</h1>
+            </div>
+        </header>
+
+        <main id="Digital Services" class="container">
+            <article class="activity-row">
+                <div class="activity-col">
+                    <img src="img/Computer_Lab.png" width="400" height="400"
+                        alt="Adults being taught computer skills in a lab">
+                </div>
+                <div class="activity-col">
+                    <h2>Digital Services</h2>
+                    <p>
+                        Basic computer and technology literacy classes with a hands on approach for websites, digital menus, and overall digital and tech literacy training.
+                         <strong>These classes create a welcoming and creative environment for small business oweners who are not
+                            well equipped or have little to no knowledge about technology and digital literacy.</strong>
+                    </p>
+                    <ul>
+                        <p>Topics Covered in class</p>
+                        <li><span class="bold">Professional websites </span></li>
+                        <li><span class="bold">Staff training on digital literacy skills</span></li>
+                        <li><span class="bold">Digital Menus</span></li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+        <aside id="contact" class="container">
+            <section class="activity-row">
+                <div class="activity-col">
+                <h2>Why should small business engage in Digital Literacy?</h2>
+                <p></p>
+                    It is very important for smaller business, new and old, to establish some kind of digitl and technological baseline for the growth and longevity 
+                    of the business. Digital literacy opens up many opportunities for the business through sponsorships, promotions, and advertisements. It also alows the business
+                    owners a means to engage with thier customers and get constructive feedback on how they could improve the overall business.
+                </p>
+                </div>
+                <div class="activity-col">
+                <img src="img/VR.jpeg" width="400" height="400"
+                        alt="Showing adults differents forms of digital literacy through VR headsets">
+                </div>
+            </section>
+            <p>
+                If you or someone you know would be interested in trying the <strong>FREE</strong> digtal and technology course
+                at Southeast Community Development Corporation (SCDC), please fill out the form below.
+            </p>
+            <form id="experience_form">
+                <label for="name" class="bold">Name: </label>
+                <input type="text" name="name" id="name"
+                    placeholder="Write your name"><br>
+                <label for="email" class="bold">Email: </label>
+                <input type="email" name="email" id="email"
+                    placeholder="Write your email"><br>
+                <label for="experience" class="bold">Experience: </label>
+                <textarea name="experience" id="experience"
+                    placeholder="Please share with us your experience."></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </aside>
+
+        <footer class="container";>
+            Copyright &copy; 2024 Southeast Community Development Corporation, All rights reserved.
+        </footer>
+    </body>
+
+</html>
